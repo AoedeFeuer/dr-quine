@@ -8,8 +8,7 @@ import (
 */
 
 func show() {
-	quine := `
-package main
+	quine := `package main
 
 import (
 	"fmt"
@@ -29,7 +28,6 @@ func main() {
 */
 	show()
 }
-
 `
 	fmt.Printf(quine, "`"+quine+"`", 0x60, 0x60)
 }

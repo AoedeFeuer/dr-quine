@@ -5,8 +5,7 @@ import (
 	"os"
 )
 
-var prog = `
-package main
+var prog = `package main
 
 import (
 	"fmt"
@@ -31,7 +30,6 @@ func main() {
 //	fmt.Printf(prog, 0x60, prog, 0x60)
 	defer grace.Close()
 }
-
 `
 
 var name = "Grace_kid.go"
